@@ -1,0 +1,87 @@
+.modal-confirm {
+    color: #636363;
+    width: 325px;
+    font-size: 14px;
+}
+
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-confirm .modal-header {
+    margin-top: -20px;
+    border-bottom: none;
+    position: relative;
+}
+
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-confirm .modal-body {
+    color: #999;
+}
+
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.modal-confirm.modal-dialog {
+    margin-top: 80px;
+}
+
+.modal-confirm .btn,
+.modal-confirm .btn:active {
+    color: #fff;
+    border-radius: 4px;
+    background: #ef513a !important;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+    background: #da2c12 !important;
+    outline: none;
+}
+
+.modal-confirm .btn span {
+    margin: 1px 3px 0;
+    float: left;
+}
+
+.modal-confirm .btn i {
+    margin-left: 1px;
+    font-size: 20px;
+    float: right;
+}
+
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.task-undone {
+    text-decoration: none;
+    color: inherit;
+}
